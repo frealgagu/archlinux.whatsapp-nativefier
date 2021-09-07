@@ -34,7 +34,7 @@ build() {
     --browserwindow-options '{ "webPreferences": { "spellcheck": true } }' \
     --verbose \
     --single-instance \
-    --tray \
+    --tray start-in-tray \
     "${url}"
 }
 
