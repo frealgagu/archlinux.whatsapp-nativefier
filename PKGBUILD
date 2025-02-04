@@ -1,7 +1,7 @@
 # Maintainer: Fredy García <frealgagu at gmail dot com>
 
 pkgname=whatsapp-nativefier
-pkgver=2.3000.1017392363
+pkgver=2.3000.1019818867
 pkgrel=1
 pkgdesc="WhatsApp desktop built with nativefier (electron)"
 arch=("armv7l" "i686" "x86_64")
@@ -29,7 +29,7 @@ build() {
     --icon "${pkgname}.png" \
     --width "800px" \
     --height "600px" \
-    --user-agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Chrome/130.0.6723.58 Safari/605.1.15" \
+    --user-agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Chrome/132.0.6834.164 Safari/605.1.15" \
     --inject "${pkgname}-inject.js" \
     --verbose \
     --single-instance \
